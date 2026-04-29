@@ -11,3 +11,4 @@ def fractionalKnapsack(W, arr, n):
             finalValue += arr[i].value/arr[i].weight * remain
             break
     return finalValue
+ 
